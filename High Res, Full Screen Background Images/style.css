@@ -1,0 +1,23 @@
+
+/*  We set the image to be the background of the html tag, then add some 
+    CSS rules. These basically:
+
+        make sure that the image stays in place and doesn't create scroll bars
+        position it so that the center of the image is at the center of the screen
+        make sure the image doesn't repeat
+        adjust the size of the image so that it always covers the browser window
+*/
+
+
+html{
+    background: url(RaffaeleCamardellaLandscapeLarge.jpg); 
+    
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;   
+    
+    background-repeat: no-repeat;
+
+}
+
+
